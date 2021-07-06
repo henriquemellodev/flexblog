@@ -75,6 +75,10 @@ img {
   margin: 0 10px;
 }
 
+.menu-logo a:hover {
+  color: #122ab2;
+}
+
 .menu-nav ul {
   display: flex;
   flex-wrap: wrap;
@@ -263,6 +267,11 @@ img {
   .preco .preco-item:nth-child(2) {
     order: -1;
   }
+}
+
+.preco-item a:hover {
+  background: #222222;
+  color: white;
 }
 
 /* Qualidade */
